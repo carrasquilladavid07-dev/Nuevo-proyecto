@@ -1,3 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
-    font-family: Arial, sans-serif;
+    font-family:Arial, sans-serif;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+}
+
+.hero{
+    display:flex;
+    gap:20px;
+    padding:40px;
+}
+
+.sobre-mi{
+    display:flex;
+    gap:20px;
+    padding:40px;
+}
+
+.galeria{
+    display:flex;
+    gap:20px;
+    padding:40px;
+}
+
+.footer{
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
 }
