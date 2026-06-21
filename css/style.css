@@ -67,3 +67,78 @@ body{
     }
 
 }
+
+body{
+    background:#f5f5f5;
+}
+
+.header{
+    background:#1f2937;
+    color:white;
+    align-items:center;
+}
+
+.logo{
+    font-weight:bold;
+    font-size:1.2rem;
+}
+
+.nav{
+    display:flex;
+    gap:20px;
+}
+
+.nav a{
+    color:white;
+    text-decoration:none;
+}
+
+.avatar{
+    border-radius:50%;
+}
+
+.tarjeta,
+.columna{
+    background:white;
+    border-radius:10px;
+}
+
+.footer{
+    background:#1f2937;
+    color:white;
+}
+
+.redes{
+    display:flex;
+    gap:10px;
+}
+
+.redes a{
+    color:white;
+}
+
+.menu-btn{
+    display:none;
+}
+
+@media(max-width:600px){
+
+    .menu-btn{
+        display:block;
+    }
+
+    .nav{
+        display:none;
+        width:100%;
+        flex-direction:column;
+    }
+
+    .nav.activo{
+        display:flex;
+    }
+
+    .header{
+        flex-wrap:wrap;
+    }
+
+}
