@@ -37,3 +37,33 @@ body{
     justify-content:space-between;
     padding:20px;
 }
+
+.avatar{
+    width:180px;
+}
+
+.columna{
+    flex:1;
+}
+
+.galeria{
+    flex-wrap:wrap;
+}
+
+.tarjeta{
+    flex:1 1 250px;
+    border:1px solid #ddd;
+    padding:20px;
+}
+
+@media(max-width:768px){
+
+    .hero{
+        flex-direction:column;
+    }
+
+    .sobre-mi{
+        flex-direction:column;
+    }
+
+}
